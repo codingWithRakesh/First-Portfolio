@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto&display=swap');
+
+:root {
+  --light1: #93B1A6;
+  --light2: #5C8374;
+  --light3: #183D3D;
+  --dark: #040D12;
+  --font: #fff;
+  --font2: #000;
+  --nameFont: #fff;
+  --sendBtn: #93B1A6;
+  --projectBtn: #DEDEDE;
+  --downlodeCV: #183D3D;
+  --downlodeCV2: #fff;
+  --hiremeC1: #93B1A6;
+  --hiremeC2: #5C8374;
+  --inputBack: #DEDEDE;
+  --inputCo: #000;
+}
+
+.lightMode {
+  --light1: #CDF5FD;
+  --light2: #A0E9FF;
+  --light3: #89CFF3;
+  --dark: #00A9FF;
+  --font: #000;
+  --font2: #fff;
+  --nameFont: rgb(167, 3, 179);
+  --sendBtn: royalblue;
+  --projectBtn: #DEDEDE;
+  --downlodeCV: #4dc7d9;
+  --downlodeCV2: blue;
+  --hiremeC1: #4dc7d9;
+  --hiremeC2: #66a6ff;
+  --inputBack: #fff;
+  --inputCo: #000;
+}
+
+.transformM50 {
+  transform: translateY(-60%) !important;
+}
+
+/*.animason{
+    animation: new ;
+    animation-timeline: view();
+    animation-duration: 0.3s;
+}*/
+
+@keyframes new {
+  from {
+    scale: 0;
+    background-color: var(--light1);
+  }
+
+  to {
+    scale: 1;
+    background-color: var(--light1);
+  }
+
+  0% {
+    scale: 0;
+    background-color: var(--light1);
+  }
+}
+
+.transition {
+  transition: all 1s ease;
+}
+
+.transition_delay {
+  transition-delay: .3s;
+}
+
+.transition_delay5 {
+  transition-delay: .5s;
+}
+
+.transition_delay1 {
+  transition-delay: .1s;
+}
+
+.transition_delay1S {
+  transition-delay: 1s;
+}
+
+.scale0 {
+  scale: 0;
+}
+
+.scale1 {
+  scale: 1 !important;
+}
+
+.scale2 {
+  scale: 2 !important;
+}
+
+.transformX0P {
+  transform: translateY(0)  !important;
+}
+
+.transformXX0P {
+  transform: translateX(0) !important;
+}
+
+.transformXY {
+  transform: translate(0, 0)  !important;
+}
+
+.good {
+  background-color: red;
+}
+
+
+.transformTOP {
+  transform: translateY(-120%);
+}
+
+.transformBOTTOM {
+  transform: translateY(120%);
+}
+
+.transformLEFT {
+  transform: translateX(-120%);
+}
+
+.transformRIGHT {
+  transform: translateX(120%);
+}
+
+.htmL95 {
+  width: 95%;
+}
+
+.csS85 {
+  width: 85%;
+}
+
+.javascripT80 {
+  width: 80%;
+}
+
+.bootstraP {
+  width: 90%;
+}
+
+.tailWindcsS85 {
+  width: 85%;
+}
+
+.jqueR70 {
+  width: 70%;
+}
+
+.reacT80 {
+  width: 80%;
+}
+
+.inputBo {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+
+/*media extar*/
+.height_100 {
+  height: 100vh !important;
+}
+
+.top0 {
+  bottom: initial !important;
+  top: 0 !important;
+}

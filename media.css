@@ -1,0 +1,319 @@
+@media only screen and (max-width: 1050px) {
+  .navContainer {
+    height: 35vh;
+    /*125vh*/
+  }
+
+  nav {
+    min-height: 10vh;
+    /*    border: 1px solid;*/
+    flex-direction: column;
+    height: initial;
+  }
+
+  .navContainer nav .logo {
+    font-size: 1.2rem;
+    font-weight: 800;
+    height: initial;
+    position: absolute;
+    left: 1rem;
+    bottom: 1.8rem;
+  }
+
+  .rightNavi {
+    flex-direction: column;
+    scale: 0;
+  }
+
+  .navSecAA {
+    opacity: 1;
+    left: 10vw;
+    scale: 0;
+  }
+
+  /*  homeBox*/
+
+  .profilrCon {
+    height: initial;
+    min-height: 80%;
+    width: 95%;
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .imgBox {
+    width: 35vh;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 0;
+    height: 32vh;
+  }
+
+  .imgBox img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 0;
+  }
+
+  .writeBox {
+    width: 100%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0;
+  }
+
+  .sendBuuon {
+    margin-top: 10px;
+  }
+
+  /*  about*/
+
+  .aboutCon {
+    width: 95%;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .aboutImg {
+    border-top-right-radius: 10px;
+  }
+
+  .aboutImg img {
+    border-top-right-radius: 10px;
+  }
+
+  .aboutWrite {
+    width: 95%;
+    border-top-right-radius: 0px;
+  }
+
+  .Btn {
+    margin-top: 10px;
+  }
+
+  .aboutEducation {
+    width: 95%;
+    border-bottom-left-radius: 0px;
+  }
+
+  .educa1 {
+    width: 100%;
+  }
+
+  .abouthobis {
+    width: 95%;
+    border-bottom-left-radius: 10px;
+  }
+
+  /*  skills*/
+
+  .skillCon {
+    width: 95%;
+    padding: 1.5rem;
+    gap: 0.8rem;
+  }
+
+  .skillsB {
+    height: 4rem;
+    width: 100%;
+  }
+
+  .fit {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+  }
+
+  .skillFir span {
+    font-size: 1rem;
+  }
+
+  /*  project*/
+  .projectCon {
+    width: 95%;
+  }
+
+  .projectBoxS {
+    width: 95%;
+  }
+
+  /*  contact us*/
+  .contactCon {
+    width: 95%;
+    padding: 1.3rem;
+  }
+
+  .gifBox {
+    width: 60%;
+  }
+
+  .messageBox {
+    width: 100%;
+  }
+
+  .nameInput {
+    width: 100%;
+  }
+
+  .emailInput {
+    width: 100%;
+  }
+
+  /*  chatBot*/
+  .collapsible,
+  .full-chat-block {
+    width: 40vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .containt {
+    padding: 15vh 0rem 3rem 0rem;
+  }
+
+  /*  home*/
+
+  .profilrCon {
+    width: 98%;
+  }
+
+  .imgBox {
+    width: 40vh;
+    height: 37vh;
+  }
+
+  .nameContainer {
+    flex-wrap: wrap;
+  }
+
+  .first-text {
+    width: 100%;
+  }
+
+  /*  about*/
+  .aboutCon {
+    width: 98%;
+  }
+
+  .aboutImg {
+    width: 40vh;
+    height: 37vh;
+  }
+
+  .aboutWrite {
+    width: 100%;
+  }
+
+  #namePort {
+    height: 2rem;
+  }
+
+  .aboutEducation {
+    width: 100%;
+  }
+
+  .abouthobis {
+    width: 100%;
+  }
+
+  /*  skill*/
+  .skillCon {
+    width: 98%;
+    padding: 1rem;
+  }
+
+  .skillFir {
+    width: 20%;
+  }
+
+  .loadingBox {
+    height: 0.6rem;
+    width: 99%;
+  }
+
+  .skillFir span {
+    display: none;
+  }
+
+  /*  project*/
+  .projectCon {
+    width: 98%;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .projectBoxS {
+    width: 100%;
+  }
+
+  .showSkill {
+    padding: 5px 0.5rem;
+  }
+
+  .seeshv {
+    font-size: 1.2rem;
+  }
+
+  .space8 {
+    margin: 0 5px;
+  }
+
+  .imagesSk {
+    gap: 5px;
+  }
+
+  /*  contact us*/
+  .contactCon {
+    padding: 1rem;
+  }
+
+  .nameInput,
+  .emailInput,
+  .subjectInput {
+    height: 2.5rem;
+  }
+
+  .messageBox {
+    row-gap: 0;
+  }
+
+  /*  footer*/
+  .writeFooter {
+    flex-wrap: wrap;
+  }
+
+  .footer {
+    padding-bottom: 0.5rem;
+  }
+
+  /*  chat Bot*/
+  .collapsible,
+  .full-chat-block {
+    width: 100vw;
+  }
+
+  .collapsible span {
+    scale: 1;
+    visibility: visible;
+  }
+
+  .chat-bar-collapsible {
+    border-radius: 0;
+  }
+
+  .content {
+    border-radius: 0;
+  }
+
+/*  Cookis*/
+  .wrapper{
+    left: 10px;
+    bottom: 10px;
+  }
+
+/*  back to top*/
+  .downAro{
+    bottom: 80px;
+    right: 14px;
+  }
+}
